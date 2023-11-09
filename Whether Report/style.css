@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background :linear-gradient(135deg,#39b694,#d991ef) ;
+    color: #fff;
+    /* margin: 100px auto 0; */
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color:#555;
+    height:60px;
+    text-align: center;
+    border-radius: 30px;
+    /* width: 90%; */
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+     border: 0;
+     outline: 0;
+     background: #ebfffc;
+     border-radius: 50% ;
+     width: 60px;
+     height: 60px;
+     cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.whether_icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.whether h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10;
+}
+.whether h1{
+    font-size: 70px;
+    /* font-weight: 400px; */
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    padding: 0 20px;
+    margin-top: 50px;
+
+
+}
+.details img{
+    width: 40px;
+}
+.col {
+    width: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col div p{
+    width: 80px;
+    
+}
+.wind{
+    font-size: 25px;
+}
+.humidity{
+    font-size: 25px;
+}
